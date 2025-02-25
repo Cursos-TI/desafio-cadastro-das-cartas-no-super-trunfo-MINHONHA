@@ -38,11 +38,10 @@ printf ("Estado:%s\n", Estado);
 printf ("Nome da Cidade: %s\n", Cidade);
 printf ("População: %d\n", populacao);
 printf ("Área em KM²: %f\n", Area);
-printf ("PIB: %f\n", PIB);
+printf ("\n\n PIB: %f ", PIB);
 printf("Numero de Pontos Turisticos: %d\n", Numero_de_pontos_turisticos);
 
 
 return 0;
-
 
 }
