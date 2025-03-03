@@ -34,9 +34,12 @@ scanf ("%f", &PIB);
 printf ("Digite o Número de pontos turísticos: ");
 scanf ("%d", &Numero_de_pontos_turisticos);
 
+//NIVEL AVENTUREIRO
+    
 Densidade =  populacao / Area;
 
 PIBP = PIB / populacao;
+    
 
 // EXIBIÇÃO DA PRIMEIRA CARTA
 
@@ -46,7 +49,7 @@ printf ("Estado:%s\n", Estado);
 printf ("Nome da Cidade: %s\n", Cidade);
 printf ("Populacao: %d\n", populacao);
 printf ("Area em KM2: %f\n", Area);
-printf ("PIB: %f\n", PIB);
+printf ("PIB: %.2f\n", PIB);
 printf("Numero de Pontos Turisticos: %d\n", Numero_de_pontos_turisticos);
 printf("Densidade Populacional: %.3f\n", Densidade);
 printf("PIB per Capita: %.3f\n\n", PIBP);
@@ -74,6 +77,8 @@ printf("PIB per Capita: %.3f\n\n", PIBP);
     printf ("Digite o Número de pontos turísticos: ");
     scanf ("%d", &Numero_de_pontos_turisticos);
 
+    //NIVEL AVENTUREIRO
+    
     Densidade =  populacao / Area;
 
     PIBP = PIB / populacao;
